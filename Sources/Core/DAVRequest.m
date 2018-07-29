@@ -337,6 +337,7 @@ NSString *const DAVClientErrorDomain = @"org.w3.http";
     [_pendingCredentials release];
 	[_data release];
     [_expectedStatuses release];
+    [_delegate release];
 	
 	[super dealloc];
 }

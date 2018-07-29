@@ -25,6 +25,7 @@
 	[modificationDate release];
 	[contentType release];
 	[creationDate release];
+    [attributes release];
 	
 	[super dealloc];
 }
